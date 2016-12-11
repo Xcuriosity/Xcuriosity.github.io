@@ -491,7 +491,7 @@ a {
 }
 
 
-@media screen and (min-width:481px) and (max-width:840px) {
+@media screen and (min-width:100%) and (max-width:100%) {
     #scheme-Paradox .index-top-block {
         min-height: 200px!important;
         transition: 1s;
