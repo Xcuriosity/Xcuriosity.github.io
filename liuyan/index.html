@@ -125,7 +125,12 @@
 
     <style>
         body{
-            background: url(/img/3.jpg) center center / cover no-repeat fixed transparent;
+            background-color: #F5F5F5
+        }
+		
+		/* blog_info bottom background */
+        #scheme-Paradox .material-layout .something-else .mdl-card__supporting-text{
+            background-color: #fff;
         }
     </style>
 
@@ -172,7 +177,7 @@
     <body id="scheme-Paradox">
 
 		
-        <div class="material-layout  mdl-js-layout has-drawer is-upgraded">
+        <div class="material-layout  mdl-js-layout has-drawer is-upgraded" >
 				
 			
 			
@@ -204,19 +209,8 @@
                 
 	<!-- Paradox Post Header -->
 	
-		
-			<!-- Random Thumbnail -->
-			<div class="post_thumbnail-random mdl-card__media mdl-color-text--grey-50">
-				<script>
-    
-    var randomNum;
-    randomNum = Math.floor(Math.random() * 6 + 1);
-    
-    $(".post_thumbnail-random").css('background-image', 'url(' + '/img/random/' + randomNum + '.png' + ')');
-    
-</script>
-
-		
+		<!-- Custom Thumbnail -->
+		<div class="post_thumbnail-custom mdl-card__media mdl-color-text--grey-50" style="background-image:url(../../about/assets/8.jpeg)">
 	
         <p class="article-headline-p">
             留言板
@@ -238,7 +232,7 @@
     <!-- Author Name & Date -->
     <div>
         <strong>Mr.curiosity</strong>
-        <span>12月 13, 2016</span>
+        <span>12月 31, 2016</span>
     </div>
     
     <div class="section-spacer"></div>
